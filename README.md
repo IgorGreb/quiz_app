@@ -53,14 +53,6 @@ flutter run
 
 ---
 
-## CI (GitHub Actions)
-Файл `.github/workflows/flutter_ci.yml` виконує перевірки:
-- `flutter analyze`
-- `dart format --set-exit-if-changed .`
-- `flutter test`
-
----
-
 ## Залежності
 - `flutter_riverpod` — для управління станом.
 - `shared_preferences` — локальне збереження результатів.
